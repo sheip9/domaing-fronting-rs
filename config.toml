@@ -1,0 +1,8 @@
+[server]
+address = "127.0.0.1"
+port = 8081
+
+[domain_fronting]
+front_domain = "184.87.103.42"
+target_domain = "steamcommunity.com"
+cdn_provider = "cloudflare"
